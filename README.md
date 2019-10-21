@@ -1,4 +1,3 @@
-# Digitale Safari
 ![Poster Digitale Safari](https://github.com/LuisMossburger/Digitale_Safari/blob/master/DigitaleSafari.jpg)
 
 Digitale Safari lässt die zoologische Sammlung der Bibliothek der Friedrich-Alexander-Universität Erlangen-Nürnberg entdecken. Der Webauftritt gibt Informationen zur Sammlung, den Autoren und Inhalten.<br>
