@@ -8,7 +8,7 @@ Die Website hat drei Teile:<br>
 <b>Erschaffen</b> | hier können eigene Wolpertinger & ChamaeleoDaVincis erstellt werden, der Fantasie sind keine Grenzen gesetzt!
 <br><br>
 ## Installation
-Die Website ist "hard gecoded" und sollte, sobald man den Ordner auf einen Server lädt, out of the box funktionieren. Der Code wurde so gut wie möglich auskommentiert, da die Arbeit aber unter Zeitdruck entstand ist die Dokumentation möglicherweise nicht immer eindeutig. Nötige Anpassungen:<br>
+Die Website ist "hard gecoded" und sollte, sobald man den Ordner auf einen Server lädt, out of the box funktionieren. Nicht enhalten ist der Vikus Viewer, der 1) Code-Doppelung zum eigentlichen repository wäre und 2) zu viele Bilddateien enthält. Der Code wurde so gut wie möglich auskommentiert, da die Arbeit aber unter Zeitdruck entstand ist die Dokumentation möglicherweise nicht immer eindeutig. Nötige Anpassungen:<br>
 - Pfade in config.json für den Vikus Viewer (unter /vikus/data/config.json) 
 - H5P-Pfade in herausfordern.html (im div mit class="h5p-content")
 Teilweise ist in diesem repository Code enthalten, der aus anderen repositories stammt. Dieser ist immer gekennzeichnet, die Quellen sind auch hier angegeben.
