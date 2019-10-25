@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flora vs untote Fauna</title>
+	<style>
+		div,canvas {
+			margin: 0;
+			padding: 0;
+		}
+
+		canvas {
+			background:none;
+			z-index:2;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			float: left;
+		}
+
+		img {
+
+				height: 1.8em;
+				width: auto;
+
+		}
+
+		h3, p {
+
+       color: #fff;
+
+		}
+
+		#canvas {
+
+		}
+
+
+		#mapCanvas {
+			z-index:1;
+		}
+
+	</style>
+	<script type="text/javascript" src="js/helpers.js"></script>
+	<script type="text/javascript" src="js/Zombie.js"></script>
+	<script type="text/javascript" src="js/Plant.js"></script>
+	<script type="text/javascript" src="js/PlantSunFlower.js"></script>
+	<script type="text/javascript" src="js/PlantPeaseShooter.js"></script>
+	<script type="text/javascript" src="js/PlantWallNut.js"></script>
+	<script type="text/javascript" src="js/PlantTallNut.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+
+</head>
+<body style="background-color: #322a35;">
+	<canvas id="canvas"></canvas>
+	<canvas id="mapCanvas"></canvas>
+
+	<div style="display: none;">
+			<img style="display:none;" id="img-moneyplant" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/moneyplant.png"/>
+			<img style="display:none;" id="img-peashooter" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/peashooter.png"/>
+			<img style="display:none;" id="img-nut" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/nut.png"/>
+			<img style="display:none;" id="img-nutTall" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/nutTall.png"/>
+			<p><img id="img-moneyplantPreview" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/moneyplantPreview.png"/> diese Pflanze generiert zusätzliche Löwenzahn-Lira.</p>
+			<p><img id="img-peashooterPreview" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/peashooterPreview.png"/> diese Pflanze ist deine beste Verteidigung - sie schießt auf die Tiere!</p>
+			<p><img id="img-nutPreview" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/nutPreview.png"/> diese Pflanze hält die Tiere eine Weile lang auf, wenn sie im Weg steht.</p>
+			<p><img id="img-nutTallPreview" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/nutTallPreview.png"/> diese Pflanze hält die Tiere ein wenig länger auf, wenn sie im Weg steht.</p>
+			<p><img id="img-shovel" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/shovel.png"/> mit einem Klick auf die Schaufel und anschließender Feldauswahl kannst du ein platziertes Item wieder abreißen.</p>
+			<p><img id="img-sun" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/sun.png"/> die Löwenzahn-Lira sind deine Währunng - unbedingt aufsammeln!</p>
+			<img style="display:none;" id="img-zombie" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/zombie.png"/>
+			<img style="display:none;" id="img-zombieVogel" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/zombieVogel.png"/>
+			<img style="display:none;" id="img-zombieElephant" src="https://digitale-safari.com/digitale_safari/FloraFauna/img/zombieElephant.png"/>
+	</div>
+</body>
+</html>
