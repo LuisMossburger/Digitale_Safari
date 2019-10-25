@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inline-scale=1, shrink-to-fit=no">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="src/css/style.css" type="text/css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+
+  <title>Digitale Safari</title>
+  <link rel="shortcut icon" type="image/x-icon" href="src/img/icon.png">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:title" content="Digitale Safari" />
+  <meta property="twitter:title" content="Digitale Safari" />
+  <meta property="og:description" content="Die zoologische Sammlung der Bibliothek der FAU entdecken!" />
+  <meta property="twitter:description" content="Die zoologische Sammlung der Bibliothek der FAU entdecken!" />
+  <meta property="og:image" content="src/img/twitterCard.png" />
+  <meta property="twitter:image" content="src/img/twitterCard.png" />
+  <meta property="twitter:url" content="herausfordern.html" />
+  <meta property="og:url" content="herausfordern.html" />
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <nav class="row">
+      <div class="col col-md-3 logoDiv"><a href="index.html"><img id="logo" src="src/img/logo.png" alt="Digitale Safari"></a></div>
+      <div class="col col-md-9">
+        <ul>
+          <li><a href="/vikus/">Entdecken</a></li>
+          <li><a href="herausfordern.html">Herausfordern</a></li>
+          <li><a href="erschaffen.html">Erschaffen</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Headline -->
+    <div class="row rowDark rowGames">
+      <div class="d-none d-md-inline col col-md-1 menu">
+        <img onclick="startGame('punch')" src="src/img/punch.png"><br>
+        <img onclick="startGame('memo')" src="src/img/memo.png"><br>
+        <img onclick="startGame('zombie')" src="src/img/zombie.png">
+      </div>
+      <div class="col col-xs-12 col-md-11 game">
+        <div class="d-md-none menuBroad">
+          <p style="color: #332a35;">Unsere Games funktionieren auf dem PC um einiges besser...</p>
+          <img onclick="startGame('punch')" src="src/img/punch.png">
+          <img onclick="startGame('memo')" src="src/img/memo.png">
+          <img onclick="startGame('zombie')" src="src/img/zombie.png">
+        </div>
+        <div id="memo">
+          <h1>Memo Mori</h1><br><br>
+          <div class="h5p-content" data-content-id="1" style="margin: auto;width: 50%;"></div>
+          <script>H5PIntegration = {"baseUrl":"localhost","url":"\/digitale_safari\/src\/js\/memory","postUserStatistics":false,"ajax":{"setFinished":"https:\/\/digitale-safari.com\/wp-admin\/admin-ajax.php?token=3e545d5a52&action=h5p_setFinished","contentUserData":"https:\/\/digitale-safari.com\/wp-admin\/admin-ajax.php?token=1bdd980a78&action=h5p_contents_user_data&content_id=:contentId&data_type=:dataType&sub_content_id=:subContentId"},"saveFreq":false,"siteUrl":"https:\/\/digitale-safari.com","l10n":{"H5P":{"fullscreen":"Vollbild","disableFullscreen":"Disable fullscreen","download":"Download","copyrights":"Rights of use","embed":"Embed","size":"Size","showAdvanced":"Show advanced","hideAdvanced":"Hide advanced","advancedHelp":"Include this script on your website if you want dynamic sizing of the embedded content:","copyrightInformation":"Rights of use","close":"Close","title":"Titel","author":"Autor","year":"Year","source":"Source","license":"License","thumbnail":"Thumbnail","noCopyrights":"No copyright information available for this content.","reuse":"Reuse","reuseContent":"Reuse Content","reuseDescription":"Reuse this content.","downloadDescription":"Download this content as a H5P file.","copyrightsDescription":"View copyright information for this content.","embedDescription":"View the embed code for this content.","h5pDescription":"Visit H5P.org to check out more cool content.","contentChanged":"This content has changed since you last used it.","startingOver":"You'll be starting over.","by":"by","showMore":"Show more","showLess":"Show less","subLevel":"Sublevel","confirmDialogHeader":"Confirm action","confirmDialogBody":"Please confirm that you wish to proceed. This action is not reversible.","cancelLabel":"Cancel","confirmLabel":"Confirm","licenseU":"Undisclosed","licenseCCBY":"Attribution","licenseCCBYSA":"Attribution-ShareAlike","licenseCCBYND":"Attribution-NoDerivs","licenseCCBYNC":"Attribution-NonCommercial","licenseCCBYNCSA":"Attribution-NonCommercial-ShareAlike","licenseCCBYNCND":"Attribution-NonCommercial-NoDerivs","licenseCC40":"4.0 International","licenseCC30":"3.0 Unported","licenseCC25":"2.5 Generic","licenseCC20":"2.0 Generic","licenseCC10":"1.0 Generic","licenseGPL":"General Public License","licenseV3":"Version 3","licenseV2":"Version 2","licenseV1":"Version 1","licensePD":"Public Domain","licenseCC010":"CC0 1.0 Universal (CC0 1.0) Public Domain Dedication","licensePDM":"Public Domain Mark","licenseC":"Copyright","contentType":"Content Type","licenseExtras":"License Extras","changes":"Changelog","contentCopied":"Content is copied to the clipboard","connectionLost":"Connection lost. Results will be stored and sent when you regain connection.","connectionReestablished":"Connection reestablished.","resubmitScores":"Attempting to submit stored results.","offlineDialogHeader":"Your connection to the server was lost","offlineDialogBody":"We were unable to send information about your completion of this task. Please check your internet connection.","offlineDialogRetryMessage":"Retrying in :num....","offlineDialogRetryButtonLabel":"Retry now","offlineSuccessfulSubmit":"Successfully submitted results."}},"hubIsEnabled":true,"reportingIsEnabled":false,"libraryConfig":null,"crossorigin":null,"crossoriginCacheBuster":null,"pluginCacheBuster":"?v=1.14.1","libraryUrl":"https:\/\/digitale-safari.com\/wp-content\/plugins\/h5p\/h5p-php-library\/js","core":{"styles":["\/wp-content\/plugins\/h5p\/h5p-php-library\/styles\/h5p.css?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/styles\/h5p-confirmation-dialog.css?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/styles\/h5p-core-button.css?ver=1.14.1"],"scripts":["\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/jquery.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-event-dispatcher.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-x-api-event.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-x-api.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-content-type.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-confirmation-dialog.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-action-bar.js?ver=1.14.1","\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/request-queue.js?ver=1.14.1"]},"loadedJs":["\/wp-content\/uploads\/h5p\/cachedassets\/2763f17b49c459dacc6172f4c39d399f3dad0fb3.js"],"loadedCss":["\/wp-content\/uploads\/h5p\/cachedassets\/2763f17b49c459dacc6172f4c39d399f3dad0fb3.css"],"contents":{"cid-1":{"library":"H5P.MemoryGame 1.3","jsonContent":"{\"cards\":[{\"image\":{\"path\":\"images\\\/image-5cb5ae1fef537.png\",\"mime\":\"image\\\/png\",\"copyright\":{\"license\":\"U\"},\"width\":477,\"height\":335},\"imageAlt\":\"Kr\\u00f6te\",\"match\":{\"path\":\"images\\\/match-5cb5ae2a94c62.png\",\"mime\":\"image\\\/png\",\"copyright\":{\"license\":\"U\"},\"width\":508,\"height\":445},\"matchAlt\":\"skelett\",\"description\":\"Kr\\u00f6te\"},{\"image\":{\"path\":\"images\\\/image-5cd1652e22650.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"version\":\"v3\"},\"width\":1059,\"height\":605},\"imageAlt\":\"Fledermaus\",\"match\":{\"path\":\"images\\\/match-5cd1654747a38.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":1059,\"height\":644},\"matchAlt\":\"Fledermausskelett\",\"description\":\"Fledermaus\"},{\"image\":{\"path\":\"images\\\/image-5cd1659f4f6ac.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen - 1\\\/2\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"version\":\"v3\"},\"width\":1531,\"height\":378},\"imageAlt\":\"Hecht\",\"match\":{\"path\":\"images\\\/match-5cd165a8036e4.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":1531,\"height\":397},\"matchAlt\":\"Hechtskelett\",\"description\":\"Hecht\"},{\"image\":{\"path\":\"images\\\/image-5cd165d47efb4.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"author\":\"Meyer, Johann Daniel\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen - 1\"},\"width\":776,\"height\":738},\"imageAlt\":\"Stockente\",\"match\":{\"path\":\"images\\\/match-5cd5920908c5e.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"C\"},\"width\":1536,\"height\":1361},\"matchAlt\":\"Entenbraten\",\"description\":\"ehh....ein Stockentenbraten???\"},{\"image\":{\"path\":\"images\\\/image-5cd168804d160.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":756,\"height\":775},\"imageAlt\":\"Katze\",\"matchAlt\":\"Katzenskelett\",\"description\":\"Katze\",\"match\":{\"path\":\"images\\\/match-5cdc61bbe2142.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":756,\"height\":586}},{\"image\":{\"path\":\"images\\\/image-5cd1689570407.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":926,\"height\":1210},\"imageAlt\":\"Hirsch\",\"match\":{\"path\":\"images\\\/match-5cd1689fc20e1.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":870,\"height\":1286},\"matchAlt\":\"Hirschskelett\",\"description\":\"Hirsch\"},{\"image\":{\"path\":\"images\\\/image-5cd168ac763ec.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":889,\"height\":1154},\"imageAlt\":\"Pferd\",\"match\":{\"path\":\"images\\\/match-5cd168b82d334.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"version\":\"v3\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":927,\"height\":1229},\"matchAlt\":\"Pferdeskelett\",\"description\":\"K\\u00f6rperwelten im 18. Jhd...\"},{\"image\":{\"path\":\"images\\\/image-5cd16966a1e39.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":888,\"height\":643},\"imageAlt\":\"Windhund\",\"match\":{\"path\":\"images\\\/match-5cd1696fbc15b.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":888,\"height\":681},\"matchAlt\":\"Windhundskelett\",\"description\":\"Windhund\"},{\"image\":{\"path\":\"images\\\/image-5cd1698553400.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":1361,\"height\":462},\"imageAlt\":\"Forelle\",\"match\":{\"path\":\"images\\\/match-5cd1698fb6861.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":1361,\"height\":464},\"matchAlt\":\"Forellenskelett\",\"description\":\"Forelle\"},{\"image\":{\"path\":\"images\\\/image-5cd1699da531a.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"version\":\"v3\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\"},\"width\":833,\"height\":681},\"imageAlt\":\"Schwan\",\"matchAlt\":\"Schwanskelett\",\"match\":{\"path\":\"images\\\/match-5cd594e9bcd33.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":833,\"height\":776},\"description\":\"Schwan\"},{\"image\":{\"path\":\"images\\\/image-5cd169b73ef8a.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":813,\"height\":662},\"imageAlt\":\"Schwein\",\"match\":{\"path\":\"images\\\/match-5cd169c95aca8.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":813,\"height\":606},\"matchAlt\":\"Schweineskelett\",\"description\":\"Schwein\"},{\"image\":{\"path\":\"images\\\/image-5cd16a902e2cc.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":833,\"height\":624},\"imageAlt\":\"Widder\",\"match\":{\"path\":\"images\\\/match-5cd16a9e50015.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":833,\"height\":700},\"matchAlt\":\"Widderskelett\",\"description\":\"Widder\"},{\"image\":{\"path\":\"images\\\/image-5cd16aad8d411.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":851,\"height\":647},\"imageAlt\":\"Schaf\",\"match\":{\"path\":\"images\\\/match-5cd16ab707db1.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":851,\"height\":639},\"matchAlt\":\"Schafskelett\",\"description\":\"Schaf\"},{\"image\":{\"path\":\"images\\\/image-5cd16ac282ff9.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":852,\"height\":351},\"imageAlt\":\"Salamander\",\"match\":{\"path\":\"images\\\/match-5cd16acc2d535.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":852,\"height\":398},\"matchAlt\":\"Salamanderskelett\",\"description\":\"Salamander\"},{\"image\":{\"path\":\"images\\\/image-5cd16ad996770.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":946,\"height\":681},\"imageAlt\":\"Cham\\u00e4leon\",\"match\":{\"path\":\"images\\\/match-5cd16ae2deb30.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":946,\"height\":681},\"matchAlt\":\"Cham\\u00e4leonskelett\",\"description\":\"auch hier ist unser Cham\\u00e4leon!\"},{\"image\":{\"path\":\"images\\\/image-5cd16aeeb01cc.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":927,\"height\":624},\"imageAlt\":\"Armadillo\",\"match\":{\"path\":\"images\\\/match-5cd16af76371f.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":927,\"height\":682},\"matchAlt\":\"Armadilloskelett\",\"description\":\"Armadillo\"},{\"image\":{\"path\":\"images\\\/image-5cd16b0742581.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":693,\"height\":700},\"imageAlt\":\"Uhu\",\"match\":{\"path\":\"images\\\/match-5cd16b1288967.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":693,\"height\":702},\"matchAlt\":\"Uhuskelett\",\"description\":\"Huhu, Uhu!\"},{\"image\":{\"path\":\"images\\\/image-5cd16b2145ce3.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":888,\"height\":681},\"imageAlt\":\"Eule\",\"match\":{\"path\":\"images\\\/match-5cd16b273bf67.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":889,\"height\":662},\"matchAlt\":\"Eulenskelett\",\"description\":\"Eule\"},{\"image\":{\"path\":\"images\\\/image-5cd16b3343fcb.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":868,\"height\":669},\"imageAlt\":\"Eichh\\u00f6rnchen\",\"match\":{\"path\":\"images\\\/match-5cd16b3abd634.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":868,\"height\":700},\"matchAlt\":\"Eichh\\u00f6rnchenskelett\",\"description\":\"Eichh\\u00f6rnchen\"},{\"imageAlt\":\"Ratte\",\"image\":{\"path\":\"images\\\/image-5cd172ede61d2.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":851,\"height\":775},\"match\":{\"path\":\"images\\\/match-5cd172f402125.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"U\"},\"width\":851,\"height\":626},\"matchAlt\":\"Rattenskelett\",\"description\":\"Ratte\"},{\"image\":{\"path\":\"images\\\/image-5cd589ddd14b7.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":814,\"height\":890},\"imageAlt\":\"Pfau\",\"match\":{\"path\":\"images\\\/match-5cd593e50cbc9.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":814,\"height\":568},\"matchAlt\":\"Pfauenskelette\",\"description\":\"Kaum wiederzuerkennen ohne sein pr\\u00e4chtiges Federkleid...\"},{\"image\":{\"path\":\"images\\\/image-5cd5941148d50.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":813,\"height\":700},\"imageAlt\":\"Marder\",\"match\":{\"path\":\"images\\\/match-5cd594378c900.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":813,\"height\":624},\"matchAlt\":\"Marderskelett\",\"description\":\"Marder\"},{\"image\":{\"path\":\"images\\\/image-5cd594a54eed8.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":869,\"height\":681},\"imageAlt\":\"Iltis\",\"match\":{\"path\":\"images\\\/match-5cd594c699e8e.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":813,\"height\":624},\"matchAlt\":\"Iltisskelett\",\"description\":\"Iltis\"},{\"image\":{\"path\":\"images\\\/image-5cd595297bb44.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":757,\"height\":738},\"imageAlt\":\"Kirschvogel\",\"match\":{\"path\":\"images\\\/match-5cd59597dbdcf.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":757,\"height\":672},\"matchAlt\":\"Kirschvogelskelett\",\"description\":\"EIn Kirschvogel?\"},{\"image\":{\"path\":\"images\\\/image-5cd595c6afda4.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":776,\"height\":746},\"imageAlt\":\"Bl\\u00fctfinck\",\"match\":{\"path\":\"images\\\/match-5cd595f34b928.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":776,\"height\":616},\"matchAlt\":\"Bl\\u00fctfinckskelett\",\"description\":\"Ein Bl\\u00fctfinck?\"},{\"image\":{\"path\":\"images\\\/image-5cd5961b0b349.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":662,\"height\":761},\"imageAlt\":\"Wiederhopf\",\"match\":{\"path\":\"images\\\/match-5cd59640168dc.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":662,\"height\":670},\"matchAlt\":\"Wiedehopfskelett\",\"description\":\"Wiedehopf\"},{\"image\":{\"path\":\"images\\\/image-5cd596697dd8c.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":757,\"height\":736},\"imageAlt\":\"Dohle\",\"match\":{\"path\":\"images\\\/match-5cd5968c88aeb.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":757,\"height\":688},\"matchAlt\":\"Dohlenskelett\",\"description\":\"so sch\\u00f6n posiert die Dohle da...\"},{\"image\":{\"path\":\"images\\\/image-5cd596e8d4023.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":832,\"height\":682},\"imageAlt\":\"Hase\",\"match\":{\"path\":\"images\\\/match-5cd5970b22aab.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":832,\"height\":663},\"matchAlt\":\"Hasenskelett\",\"description\":\"Hase\"},{\"image\":{\"path\":\"images\\\/image-5cd5972ee5e8f.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":870,\"height\":645},\"imageAlt\":\"Ochse\",\"match\":{\"path\":\"images\\\/match-5cd5974e37462.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":870,\"height\":681},\"matchAlt\":\"Ochsenskelett\",\"description\":\"Ochse\"},{\"image\":{\"path\":\"images\\\/image-5cd59770dbe58.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":907,\"height\":609},\"imageAlt\":\"Rotauge\",\"match\":{\"path\":\"images\\\/match-5cd5979776c93.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":907,\"height\":511},\"matchAlt\":\"Rotaugeskelett\",\"description\":\"Der Rotauge - der Marihuanakonsument unter den Fischen?\"},{\"image\":{\"path\":\"images\\\/image-5cd597e186e7b.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":941,\"height\":1236},\"imageAlt\":\"Sperber\",\"match\":{\"path\":\"images\\\/match-5cd597fee7069.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":777,\"height\":1279},\"matchAlt\":\"Sperberskelett\",\"description\":\"Sperber\"},{\"image\":{\"path\":\"images\\\/image-5cd59821ae9d0.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":833,\"height\":708},\"imageAlt\":\"Damhirsch\",\"match\":{\"path\":\"images\\\/match-5cd5983c90665.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\"},\"width\":833,\"height\":682},\"matchAlt\":\"Damhirschskelett\",\"description\":\"Damhirsch\"},{\"image\":{\"path\":\"images\\\/image-5cd5985d3e94a.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\\\/2\",\"author\":\"Johann Daniel Meyer\",\"year\":\"1713 - 1752\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":775,\"height\":681},\"imageAlt\":\"Rehbock\",\"match\":{\"path\":\"images\\\/match-5cd59878df046.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"year\":\"1713 - 1752\",\"version\":\"v3\",\"author\":\"Johann Daniel Meyer\"},\"width\":606,\"height\":601},\"matchAlt\":\"Rehbockskelett\",\"description\":\"Rehbock\"},{\"image\":{\"path\":\"images\\\/image-5cdb359d07fe8.png\",\"mime\":\"image\\\/png\",\"copyright\":{\"license\":\"U\"},\"width\":1018,\"height\":443},\"imageAlt\":\"Maulwurf\",\"match\":{\"path\":\"images\\\/match-5cdb35c00d6fe.png\",\"mime\":\"image\\\/png\",\"copyright\":{\"license\":\"U\"},\"width\":854,\"height\":412},\"matchAlt\":\"Maulwurf Skelett\",\"description\":\"Maulwurf\"}],\"behaviour\":{\"useGrid\":true,\"allowRetry\":true,\"numCardsToUse\":6},\"lookNFeel\":{\"themeColor\":\"#909090\",\"cardBack\":{\"path\":\"images\\\/cardBack-5cd5beb0e45dd.jpg\",\"mime\":\"image\\\/jpeg\",\"copyright\":{\"license\":\"GNU GPL\",\"title\":\"Vorstellungen allerley Thiere mit ihren Gerippen 1\",\"year\":\"1713 - 1752\",\"author\":\"Johann Daniel Meyer\",\"source\":\"https:\\\/\\\/download.codingdavinci.de\\\/index.php\\\/s\\\/xbCwPGu7CDVrGd3?path=%2Fimages\",\"version\":\"v3\"},\"width\":623,\"height\":587}},\"l10n\":{\"cardTurns\":\"Z\\u00fcge\",\"timeSpent\":\"Ben\\u00f6tigte Zeit\",\"feedback\":\"Gute Arbeit!\",\"tryAgain\":\"Nochmal spielen!\",\"closeLabel\":\"Schlie\\u00dfen\",\"label\":\"Memory mori\",\"done\":\"Alle P\\u00e4rchen gefunden\",\"cardPrefix\":\"Card %num:\",\"cardUnturned\":\"Unturned.\",\"cardMatched\":\"Passende Karte\"}}","fullScreen":"0","exportUrl":"\/wp-content\/uploads\/h5p\/exports\/memori-mori-1.h5p","embedCode":"<iframe src=\"https:\/\/digitale-safari.com\/wp-admin\/admin-ajax.php?action=h5p_embed&id=1\" width=\":w\" height=\":h\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><\/iframe>","resizeCode":"<script src=\"https:\/\/digitale-safari.com\/wp-content\/plugins\/h5p\/h5p-php-library\/js\/h5p-resizer.js\" charset=\"UTF-8\"><\/script>","url":"https:\/\/digitale-safari.com\/wp-admin\/admin-ajax.php?action=h5p_embed&id=1","title":"Memori mori","displayOptions":{"frame":false,"export":false,"embed":false,"copyright":true,"icon":true,"copy":false},"metadata":{"title":"Memori mori","license":"U","defaultLanguage":"de"},"contentUserData":[{"state":"{}"}]}}};</script>	<script type="text/javascript">
+        		var c = document.body.className;
+        		c = c.replace( /everest-forms-no-js/, 'everest-forms-js' );
+        		document.body.className = c;
+        	</script>
+	        <link rel='stylesheet' id='h5p-core-styles-h5p-css'  href='src/js/memory/h5p/h5p-php-library/styles/h5p.css?ver=1.14.1' type='text/css' media='all' />
+          <link rel='stylesheet' id='h5p-core-styles-h5p-confirmation-dialog-css'  href='src/js/memory/h5p/h5p-php-library/styles/h5p-confirmation-dialog.css?ver=1.14.1' type='text/css' media='all' />
+          <link rel='stylesheet' id='h5p-core-styles-h5p-core-button-css'  href='src/js/memory/h5p/h5p-php-library/styles/h5p-core-button.css?ver=1.14.1' type='text/css' media='all' />
+          <link rel='stylesheet' id='h5p-cachedassets-2763f17b49c459dacc6172f4c39d399f3dad0fb3-css'  href='src/js/memory/cachedassets/2763f17b49c459dacc6172f4c39d399f3dad0fb3.css?ver=5.2.3' type='text/css' media='all' />
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/jquery.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p-event-dispatcher.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p-x-api-event.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p-x-api.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p-content-type.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p-confirmation-dialog.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/h5p-action-bar.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/h5p/h5p-php-library/js/request-queue.js?ver=1.14.1'></script>
+          <script type='text/javascript' src='src/js/memory/cachedassets/2763f17b49c459dacc6172f4c39d399f3dad0fb3.js?ver=5.2.3'></script>
+
+        </div>
+
+
+
+        <div id="punch">
+          <h1>Punch a chamaeleon</h1><br>
+          <p>Na, schneller als das ChamaeleoDaVinci?</p><br><br>
+          <p style="font-weight: bold;">Punkte:&nbsp;<span id="scorer"></span></p>
+
+          <div id="hole_row_1" style="width: 100%;">
+              <div id="hole1" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div id="hole2" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div id="hole3" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+          </div>
+
+          <div id="hole_row_2" style="width: 100%;">
+              <div id="hole4" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div id="hole5" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div id="hole6" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+          </div>
+
+          <div id="hole_row_3" style="width: 100%;">
+              <div id="hole7" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div id="hole8" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+              <div id="hole9" onclick="score(this.style.backgroundImage);" style="width: 30%; height: 100px; display: inline-block; background-image: url('src/img/wolpertinger/Punch.png'); background-repeat: no-repeat; background-position: center; background-size: contain;"></div>
+          </div>
+        </div>
+
+
+
+        <div id="zombie">
+          <h1>Flora vs. untote Fauna</h1>
+          <p>Schon mal von Plants vs. Zombies gehört? Gab's auch im 18. Jahrhundert schon.<br>P.S.: <a href="#Spielregeln">Regeln lesen</a>, auf's Feld klicken und [ESC] drücken ;)</p><br><br>
+          <iframe id="zombieFrame" src="src/floraVsFauna/floraGegenFauna.html" style="width: 600px; height: 400px;"></iframe>
+
+          <div class="regeln"><br><br><br><h4 id="Spielregeln">Wie spielt man das eigentlich?</h3>
+      			<p>Ziel des Spiels ist es, die untoten Tiere aufzuhalten, die zur anderen Seite gelangen wollen. Verschiedene Items können dir dabei helfen, die aber alle Löwenzahn-Lira kosten (die Anzahl steht jeweils dabei).
+      				<br>Möchtest du ein Item einsetzen, ziehe es mit der Maus auf das Feld, wo es stehen soll. Achtung: manche Items haben eine "Reload-Zeit".
+      				<br><br>Schaffen es zwei Tiere auf die andere Seite, hast du verloren. Halt die Stellung! Mit [ESC] kannst du übrigens pausieren.
+      			</p>
+      			<p><img id="img-shovel" src="src/floraVsFauna/img/shovel.png"/> mit einem Klick auf die Schaufel und anschließender Feldauswahl kannst du ein platziertes Item wieder abreißen.</p>
+      			<p><img id="img-sun" src="src/floraVsFauna/img/sun.png"/> die Löwenzahn-Lira sind deine Währunng - unbedingt aufsammeln!</p>
+      			<p><img id="img-moneyplantPreview" src="src/floraVsFauna/img/moneyplantPreview.png"/> diese Pflanze generiert zusätzliche Löwenzahn-Lira.</p>
+      			<p><img id="img-peashooterPreview" src="src/floraVsFauna/img/peashooterPreview.png"/> diese Pflanze ist deine beste Verteidigung - sie schießt auf die Tiere!</p>
+      			<p><img id="img-nutPreview" src="src/floraVsFauna/img/nutPreview.png"/> diese Pflanze hält die Tiere eine Weile lang auf, wenn sie im Weg steht.</p>
+      			<p><img id="img-nutTallPreview" src="src/floraVsFauna/img/nutTallPreview.png"/> diese Pflanze hält die Tiere ein wenig länger auf, wenn sie im Weg steht.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Footer -->
+  <footer class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <ul>
+        <li><a href="http://ub.fau.de" target="_blank"><img src="src/img/logoFAU.png" alt="Logo der FAU Erlangen-Nürnberg"></a></li>
+        <li><a href="http://codingdavinci.de" target="_blank"><img src="src/img/logoCDV.png" alt="Logo von Coding Da Vinci"></a></li>
+        <li><a href="index.html" target="_blank"><img src="src/img/logoBroad.png" alt="Logo von Digitale Safari"></a></li>
+      </ul>
+      <br><br><br>
+      <a href="impressum.html">Impressum</a>
+      <a href="https://github.com/LuisMossburger/Digitale_Safari">github</a>
+      <a href="impressum.html#datenschutz">Datenschutz</a>
+    </div>
+    <div class="col-md-1"></div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Eigene Funktionen -->
+  <script>
+
+    var chamInt = "";
+
+    //Funktion zum Wechseln zwischen Games
+    function startGame(game) {
+      //testen, welches Game gestartet werden soll
+      if (game == "punch") {
+        //Punch-Game starten
+        document.getElementById("memo").style.display = "none";
+        document.getElementById("zombie").style.display = "none";
+        document.getElementById("punch").style.display = "initial";
+        //Chamaeleon springen lassen
+        chamInt = setInterval(punch, 1000);
+      } else if (game == "memo") {
+        //Memo-Game starten
+        document.getElementById("punch").style.display = "none";
+        document.getElementById("zombie").style.display = "none";
+        document.getElementById("memo").style.display = "initial";
+        //Chamaeleon stoppen
+        clearInterval(chamInt);
+      } else if (game == "zombie") {
+        //Zombie-Game starten
+        document.getElementById("memo").style.display = "none";
+        document.getElementById("punch").style.display = "none";
+        document.getElementById("zombie").style.display = "initial";
+        //Chamaeleon stoppen
+        clearInterval(chamInt);
+      } else {
+        //Chamaeleon stoppen
+        clearInterval(chamInt);
+      }
+    }
+
+
+
+    //MEMO MORI
+    //Funktion zum Abspielen einer Melodie, wenn zwei richtige Memory Karten aufgedeckt werden
+    setTimeout(ringWhenWinning, 3000);
+    function ringWhenWinning() {
+    	document.getElementsByClassName("h5p-memory-pop")[0].id = "elem";
+      let observer = new MutationObserver(mutationRecords => {
+        if (document.getElementById("elem").style.display == "block") {
+            var audio = new Audio('src/js/memory/memory_win.wav');
+            audio.play();
+        }
+    });
+
+    observer.observe(elem, {
+      attributes: true
+    });
+    }
+
+
+
+    //PUNCH A CHAMAELEON
+    var holes = ["hole1", "hole2", "hole3", "hole4", "hole5", "hole6", "hole7", "hole8", "hole9"];
+    var punkte = 0;
+    var activeHole = "hole1";
+    //Funktion zum "Springen" des Chamaeleons
+    function punch() {
+        var number = Math.floor(Math.random() * 9);
+        var number2 = Math.floor(Math.random() * 2);
+
+        //aktives Loch wieder "leeren"
+        document.getElementById(activeHole).style.backgroundImage = "url('src/img/wolpertinger/Punch.png')";
+
+        //je nach Zufallszahl neues Loch mit Chamäleon füllen
+        if (number2 > 0) {
+            document.getElementById(holes[number]).style.backgroundImage = "url('src/img/wolpertinger/Punch_chamaeleon.png')";
+            activeHole = holes[number];
+        } else {
+            document.getElementById(holes[number]).style.backgroundImage = "url('src/img/wolpertinger/Punch_tail.png')";
+            activeHole = holes[number];
+        }
+    }
+
+    //Funktion nach Klick auf Chamäleon
+    function score(image) {
+        if (image == 'url("src/img/wolpertinger/Punch_chamaeleon.png")' || image == 'url("src/img/wolpertinger/Punch_tail.png")') {
+            punch();
+            punkte++;
+            document.getElementById("scorer").innerHTML = punkte;
+
+            if (punkte > 7) {
+              clearInterval(chamInt);
+              chamInt = setInterval(punch, 500);
+            } else if (punkte > 15) {
+              clearInterval(chamInt);
+              chamInt = setInterval(punch, 200);
+            } else if (punkte > 25) {
+              clearInterval(chamInt);
+              chamInt = setInterval(punch, 100);
+            }
+          }
+      }
+  </script>
+
+</body>
+
+</html>
