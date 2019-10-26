@@ -1,7 +1,8 @@
 ![Poster Digitale Safari](https://github.com/LuisMossburger/Digitale_Safari/blob/master/DigitaleSafari.jpg)
 
 # Digitale Safari
-die zoologische Sammlung der Bibliothek der Friedrich-Alexander-Universität Erlangen-Nürnberg entdecken!<br><br>
+die zoologische Sammlung der Bibliothek der Friedrich-Alexander-Universität Erlangen-Nürnberg entdecken!<br>
+Ein Projekt von CodingDaVinci Süd 2019, vorgestellt bei der Langen Nacht der Wissenschaften in Erlange.<br><br>
 Die Website hat drei Teile:<br>
 <b>Entdecken</b> | mit Bildextraktion, Ähnlichkeitsgruppierung und dem Vikus Viewer können die Abbildungen durchstöbert werden<br>
 <b>Herausfordern</b> | durch Mini-Games, wie Punch-a-Chamaeleon, wird die Sammlung spielerisch erlebbar (Altersgrenze nicht vorgegeben ;) )<br>
