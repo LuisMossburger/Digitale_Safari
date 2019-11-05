@@ -18,7 +18,7 @@ Teilweise ist in diesem repository Code enthalten, der aus anderen repositories 
 Inhalte der Website: CC-BY Digitale Safari<br>
 Zoologische Abbildungen: CC-BY-SA Universitätsbibliothek der FAU Erlangen-Nürnberg<br>
 <br><br>
-Inhalte: Katrin Krumpholz, Ploy Schneider, Karin Kulhanek<br>
+Inhalte: Katrin Krumpholz, Ploy Schneider, Karin Kulhanek, Luis Moßburger<br>
 Webentwicklung/-design: Luis Moßburger, Ploy Schneider
 <br><br><br><br>
 ## Quellen
